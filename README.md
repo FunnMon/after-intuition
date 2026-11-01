@@ -41,4 +41,14 @@ Hallmark Vellum parchment方向，按中文阅读调整为Songti标题和系统�
 
 本产品是原创科普体验，不是经验证的心理量表，不给出智商、人格、人群排名或偏差强度。研究依据与每项解释边界在回看中可查。相关补充研究不冒充原书专有内容。
 
-尚未上传或公开部署。本轮只交付可审的本地第三版。
+## 公开网站与部署
+
+体验地址：https://funnmon.github.io/after-intuition/
+
+源码仓库：https://github.com/FunnMon/after-intuition （Public）
+
+main分支推送后由GitHub Actions运行规则检查与静态构建，发布dist/内的显式应用文件；审核示例、来源说明、脚本与README不作为网页资源发布。工作流见.github/workflows/pages.yml。
+
+本地检查：`npm test`。构建：`npm run build`。无第三方运行时依赖，不需要npm install。
+
+线上已从无本产品存档的新浏览器页面完成七章35题、14页回看和报告，实际下载PNG摘要与完整文字档案；检查375px布局及刷新续答。首次发布记录对应提交465730f。
