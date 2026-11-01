@@ -1,0 +1,13 @@
+{
+  "name": "after-intuition",
+  "version": "3.0.0",
+  "private": true,
+  "description": "Chinese cognitive-bias interactive handbook",
+  "scripts": {
+    "test": "node --check content.js && node --check app.js && node scripts/validate.cjs",
+    "build": "node scripts/build.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

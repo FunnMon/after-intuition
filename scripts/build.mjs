@@ -1,0 +1,11 @@
+import { cpSync, mkdirSync, rmSync, writeFileSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
+import { resolve } from 'node:path';
+const root=fileURLToPath(new URL('../',import.meta.url));
+const output=resolve(root,'dist');
+const publicFiles=['index.html','app.js','content.js','tokens.css','base.css','styles.css','assets/cafe-scene.png'];
+rmSync(output,{recursive:true,force:true});
+mkdirSync(resolve(output,'assets'),{recursive:true});
+for(const name of publicFiles)cpSync(resolve(root,name),resolve(output,name));
+writeFileSync(resolve(output,'.nojekyll'),'');
+console.log('Built dist/ from 7 explicit public application files.');

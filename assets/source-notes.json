@@ -1,0 +1,11 @@
+{
+  "source": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. Asset type: fictional teaching stimulus for a Chinese cognitive-bias interactive website, full scene to be revealed after an initial crop. Create a single natural editorial photograph, landscape 1536x1024. Scene: a cozy independent reading cafe, seen from just outside a large shopfront window in daylight. In the central 50% of the image, through the window, a beautiful wooden table, one coffee cup, a book, plants, comfortable chairs and a warm reading lamp make a convincing inviting calm corner. The complete wider image clearly shows active street construction to the FAR RIGHT outside the cafe, including a worker in safety vest, orange safety barriers, dug-up pavement and construction equipment; left outer edge may show busy road. Keep this contextual evidence at the outer edges rather than covering the cozy center. Composition must allow a tight central crop to show only the inviting reading nook while the uncropped frame reveals the surrounding construction. Realistic spatial layout, restrained cool gray and warm wood colors, no dramatic lighting, no split panels, no collage, no text, no signs with legible words, no logo or watermark. This is a fabricated scene for education, not a photograph of any real venue.",
+  "original_path": "Built-in image_gen original retained in local delivery archive",
+  "saved_path": "assets/cafe-scene.png",
+  "size": [
+    1536,
+    1024
+  ],
+  "fictional": true
+}
